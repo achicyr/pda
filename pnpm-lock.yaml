@@ -10,10 +10,13 @@ dependencies:
     version: 6.2.0(next@15.0.2)(react-dom@19.0.0-rc-02c0e824-20241028)(react@19.0.0-rc-02c0e824-20241028)
   autoprefixer:
     specifier: ^10.4.20
-    version: 10.4.20(postcss@8.4.31)
+    version: 10.4.20(postcss@8.4.47)
   bcrypt:
     specifier: ^5.1.1
     version: 5.1.1
+  classnames:
+    specifier: ^2.5.1
+    version: 2.5.1
   cors:
     specifier: ^2.8.5
     version: 2.8.5
@@ -1114,7 +1117,7 @@ packages:
     resolution: {integrity: sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==}
     dev: false
 
-  /autoprefixer@10.4.20(postcss@8.4.31):
+  /autoprefixer@10.4.20(postcss@8.4.47):
     resolution: {integrity: sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -1126,7 +1129,7 @@ packages:
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
-      postcss: 8.4.31
+      postcss: 8.4.47
       postcss-value-parser: 4.2.0
     dev: false
 

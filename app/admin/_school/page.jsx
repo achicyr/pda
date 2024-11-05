@@ -2,8 +2,8 @@ import { useContext } from 'react'
 import {createPortal} from "react-dom"
 // import { usePathname } from 'next/navigation'
 import Link from "next/link";
-import { ecole_classes, ecole_profs, ecole_eleves } from "../../../assets/classes"
-import EditMongoForm from "./EditMongoForm"
+import { ecole_classes, ecole_profs, ecole_eleves } from "../../../assets/classes.js"
+import EditMongoForm from "./EditMongoForm.jsx"
 // import { getModels } from "../../api/lib/ecole"
 import AdminContext from "../../../stores/adminContext.js"
 import MembersList from "./_/MembersList.jsx";
