@@ -12,7 +12,7 @@ import {FormContextProvider} from '../stores/formContext.js'
 
 // import Nav from '../components/Nav'
 import ClientIsHome from "./ClientIsHome";
-import ClientIsAdmin from "./ClientIsAdmin";
+// import ClientIsAdmin from "./ClientIsAdmin";
 import Footer from "./Footer";
 import AfterFooter from "./AfterFooter";
 
