@@ -59,9 +59,9 @@ export default function RootLayout({ children }) {
               <ClientIsHome>
                 {children}
               </ClientIsHome>
-              <ClientIsAdmin>
+              {/* <ClientIsAdmin>
                 {children}
-              </ClientIsAdmin>
+              </ClientIsAdmin> */}
               <Footer />
               <AfterFooter />
             </ClerkProvider>

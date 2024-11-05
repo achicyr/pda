@@ -3157,7 +3157,7 @@ body{
               ,&.nature>.nature{display: block;}
               &.money>ul.money{display: flex;}
               >fieldset.money,>fieldset.nature{
-                @extend %b5_fieldset01;
+                @extend %b5_fieldset01 !optional;
                 width: 100%;
               }
               >article.money{
