@@ -498,6 +498,7 @@ body{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      text-align: center;
       >a{
         &:last-of-type:after
         ,&:last-of-type:before
@@ -617,7 +618,9 @@ body{
         width: 100%;
         left:133px;
         top: 0px;
-        background: white;
+        @include mobile-only{
+          background: white;
+        }
         // &:before{
         //   content:"";
         //     position: absolute;
@@ -801,6 +804,7 @@ body{
         &:hover{font-size:1.2em;}
         background: url(../../public/img/login.png) no-repeat;
         background-size: contain;
+        z-index: 2;
       }
       >form#connexion{
         display: none;
